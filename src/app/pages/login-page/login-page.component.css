@@ -1,14 +1,48 @@
 .login-page-content {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../../assets/login-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-content {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .login-info {
   margin: 12px 0px;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  width: 100%;
+}
+
+.login-actions {
+  width: 100%;
+}
+
+input {
+  color: red;
+  outline: none;
+  border-radius: 6px;
+  border: 2px solid red;
+  padding: 12px 12px;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+
+label {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+  color: red;
 }
 
 /* Put this button on global scope */
@@ -16,7 +50,11 @@
   background: red;
   color: white;
   outline: none;
+  border-radius: 6px;
+  border-width: none;
+  border-style: none;
   padding: 12px 6px;
   font-size: 1.2rem;
   cursor: pointer;
+  width: 100%;
 }
