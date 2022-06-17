@@ -1,7 +1,10 @@
 nav {
   display: flex;
   padding: 12px;
-  background: #ffc8c8;
+  background: white;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: red;
 }
 
 nav a {
@@ -9,14 +12,14 @@ nav a {
   margin: 0px 12px;
   background: white;
   padding: 6px 12px;
-  color: #bbbbbb;
+  color: red;
   font-size: 1.3rem;
   text-decoration: none;
   border-radius: 6px;
 }
 
 nav a:first-child {
-  background: white;
-  color: #f7a4a4;
+  background: red;
+  color: white;
   font-weight: bold;
 }
